@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images & Responsiveness in HTML</title>
+    </head>
+    <body>
+        <img src="Wallpaper Astro.jpg" alt="Astro"
+        width="100%" height="100%" 
+        srcset="strength.jfif 480w,
+                strength.jfif 800w,
+                strength.jfif 1200w"
+        sizes="(max.width: 480px) 240px,
+                (max.width: 960px) 480px,
+                (max.width: 1440px) 960px">
+
+        <picture>
+            <source media="(max.width: 600px)" srcset="Wallpaper Astro.jpg">
+            <source media="(max.width: 900px)" srcset="strength.jfif">
+            <img src="Wallpaper Code.jpg" alt="">
+        </picture>
+
+        <!--*Rendering an image
+            *Using the secret
+            *Using the sizes
+            *Making it responsive
+            *Responsive pictures-->
+
+    </body>
+</html>
